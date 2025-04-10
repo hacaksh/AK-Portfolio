@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pic-content/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="navibar">
+            <!--target="_main" if required-->
+            <a href="index.html"><img id="logo" src="pic-content/logo.png" alt="AS"></a>
+            <div>
+                <a href="index.html" >Home</a>
+                <a href="aboutme.html">About me</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact me</a>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main id="main-con">
+        <div id="video-rapper">
+            <video autoplay muted loop playsinline id="bgr-video">
+              <source src="pic-content/backgroundcontactme.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <form class="form">
+            <p class="title">Contact Me</p>
+            <p class="message">I'd love to hear from you! Fill out the form below. </p>
+            
+            <div class="flex">
+              <label>
+                <input required type="text" placeholder="" class="input">
+                <span>Firstname</span>
+              </label>
+              
+              <label>
+                <input required type="text" placeholder="" class="input">
+                <span>Lastname</span>
+              </label>
+            </div>
+          
+            <label>
+              <input required type="email" placeholder="" class="input">
+              <span>Email</span>
+            </label>
+          
+            <label>
+              <input required type="text" placeholder="" class="input">
+              <span>Subject</span>
+            </label>
+          
+            <label>
+              <textarea required placeholder="" class="input" rows="4" style="resize: none;"></textarea>
+              <span>Message</span>
+            </label>
+          
+            <button class="submit">Send Message</button>
+          </form>
+          
+    </main>
+    <hr>
+    <footer>
+        <div id="con">
+            <p>© 2025 Akshat Sharma | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

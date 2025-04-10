@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pic-content/favicon.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+      <nav id="navibar">
+        <!--target="_main" if required-->
+        <a href="index.html"><img id="logo" src="pic-content/logo.png" alt="AS"></a>
+        <div>
+            <a href="index.html" >Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact me</a>
+        </div>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <div id="video-wrapper">
+        <video autoplay muted loop playsinline id="bg-video">
+          <source src="pic-content/backgroundhome.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <section id="intro" class="fade-in-section">
+          <div id="ak_pic_wrapper" style="position: relative; display: inline-block;">
+            <img src="pic-content/akshat10.jpg" id="ak_pic" alt="Akshat Sharma" />
+            <div class="img-overlay"></div>
+          </div>
+          <div id="aboutak">
+            <h2>Hi, I'm Akshat Sharma</h2>
+            <br>
+            <p class="akab">
+              <span class="static-part">A </span><span id="typing-text"></span><span class="cursor">|</span>
+            </p>
+            <br>
+            <p class="akab">Building secure, stunning, and smart digital solutions — one project at a time.</p>
+          </div>
+        </section>
+        <section class="about-button-section fade-in-section">
+          <div class="about-button-container">
+            <a href="aboutme.html" class="about-link">
+              <button class="about-button">About me</button>
+            </a>
+          </div>
+        </section>
+        <section id="code-showcase" class="fade-in-section">
+          <div class="codepics-wrapper">
+            <div class="codepics">
+              <img src="pic-content/codepic1.jpg" alt="codepic1" class="codepic" />
+              <img src="pic-content/codepic2.jpg" alt="codepic2" class="codepic" />
+              <img src="pic-content/codepic3.jpg" alt="codepic3" class="codepic" />
+              <img src="pic-content/codepic4.jpg" alt="codepic4" class="codepic" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>    
+    <hr>
+    <footer>
+        <div id="con">
+            <p>© 2025 Akshat Sharma | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
